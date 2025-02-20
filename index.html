@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Product Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet" />
+
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Sneakers</h1>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="">Collections</a></li>
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="profile">
+          <img class="cart-icon" src="./img/icon-cart.svg" alt="" />
+          <img src="./img/image-avatar.png" alt="" width="40" height="40" />
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="Product-images">
+        <img src="./img/image-product-1.jpg" alt="" width="300" height="300" />
+        <div class="Product-image-list">
+          <img src="./img/image-product-1.jpg" alt="" width="60" height="60" />
+          <img src="./img/image-product-2.jpg" alt="" width="60" height="60" />
+          <img src="./img/image-product-3.jpg" alt="" width="60" height="60" />
+          <img src="./img/image-product-4.jpg" alt="" width="60" height="60" />
+        </div>
+      </section>
+      <section class="Product-details">
+        <p class="company-name">Sneakers company</p>
+        <h2 class="company-heading">Fall Limited Edition Sneakers</h2>
+        <p>
+          These low-profile Sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="product-price">
+          <h2>$125.00</h2>
+          <span>50%</span>
+        </div>
+        <p class="discount">$250.00</p>
+
+        <div class="add-to-cart-details">
+          <div class="plus-and-minus">
+            <img class="minus" src="./img/icon-minus.svg" alt="" /><span
+              >0</span
+            >
+            <img class="plus" src="./img/icon-plus.svg" alt="" />
+          </div>
+          <button type="button">
+            <img src="./img/icon-cart.svg" alt="" width="20" height="20" />
+            <span>Add to cart</span>
+          </button>
+        </div>
+      </section>
+
+      <div id="cart" class="cart" style="display: none">
+        <h3>Cart</h3>
+        <p>Your cart is empty.</p>
+      </div>
+    </main>
+  </body>
+</html>
