@@ -399,3 +399,35 @@ body {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .body {
+    padding: 0;
+    margin: 0;
+    max-width: 480px;
+  }
+
+  .header {
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    padding: 15px;
+    margin: 0;
+    justify-content: flex-end;
+  }
+  .Product-image-list {
+    width: 80px;
+
+    gap: 5px;
+
+    flex-direction: column;
+  }
+  .profile span {
+    top: 2%;
+  }
+}
